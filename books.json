@@ -1,0 +1,104 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Мастер и Маргарита",
+      "author": "Михаил Булгаков",
+      "year": 1967,
+      "cover": "images/book1.jpg",
+      "description": "Роман, в котором переплетаются любовная линия, философские размышления и сатира на советское общество.",
+      "rating": 4.9,
+      "popular": true
+    },
+    {
+      "id": 2,
+      "title": "Преступление и наказание",
+      "author": "Фёдор Достоевский",
+      "year": 1866,
+      "cover": "images/book2.jpg",
+      "description": "Роман о студенте Раскольникове, совершившем убийство и последующем наказании.",
+      "rating": 4.8,
+      "popular": true
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": "Джордж Оруэлл",
+      "year": 1949,
+      "cover": "images/book3.jpg",
+      "description": "Антиутопия о тоталитарном режиме и подавлении свободы.",
+      "rating": 4.7,
+      "popular": true
+    },
+    {
+      "id": 4,
+      "title": "Война и мир",
+      "author": "Лев Толстой",
+      "year": 1869,
+      "cover": "images/book4.jpg",
+      "description": "Эпический роман о судьбах людей на фоне наполеоновских войн.",
+      "rating": 4.8,
+      "popular": false
+    },
+    {
+      "id": 5,
+      "title": "Анна Каренина",
+      "author": "Лев Толстой",
+      "year": 1877,
+      "cover": "images/book5.jpg",
+      "description": "История трагической любви замужней женщины.",
+      "rating": 4.7,
+      "popular": false
+    },
+    {
+      "id": 6,
+      "title": "Маленький принц",
+      "author": "Антуан де Сент-Экзюпери",
+      "year": 1943,
+      "cover": "images/book6.jpg",
+      "description": "Философская сказка о любви, дружбе и одиночестве.",
+      "rating": 4.9,
+      "popular": true
+    },
+    {
+      "id": 7,
+      "title": "Евгений Онегин",
+      "author": "Александр Пушкин",
+      "year": 1833,
+      "cover": "images/book7.jpg",
+      "description": "Роман в стихах о жизни дворянства начала XIX века.",
+      "rating": 4.6,
+      "popular": false
+    },
+    {
+      "id": 8,
+      "title": "Три товарища",
+      "author": "Эрих Мария Ремарк",
+      "year": 1936,
+      "cover": "images/book8.jpg",
+      "description": "Роман о дружбе, любви и жизни в послевоенной Германии.",
+      "rating": 4.8,
+      "popular": true
+    },
+    {
+      "id": 9,
+      "title": "Улисс",
+      "author": "Джеймс Джойс",
+      "year": 1922,
+      "cover": "images/book9.jpg",
+      "description": "Модернистский роман, описывающий один день в Дублине.",
+      "rating": 4.5,
+      "popular": false
+    },
+    {
+      "id": 10,
+      "title": "Великий Гэтсби",
+      "author": "Фрэнсис Скотт Фицджеральд",
+      "year": 1925,
+      "cover": "images/book10.jpg",
+      "description": "Роман о жизни американской элиты в эпоху джаза.",
+      "rating": 4.6,
+      "popular": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Книжный сайт",
+  "short_name": "Книжный клуб",
+  "theme_color": "#10b981",
+  "background_color": "#0f172a",
+  "display": "browser",
+  "orientation": "landscape",
+  "scope": "/",
+  "start_url": "/"
+}

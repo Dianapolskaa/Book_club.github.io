@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книги | Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <header class="header">
+        <h1 class="logo">Книжный клуб</h1>
+        <p class="slogan">Погрузись в мир книг</p>
+        <button class="btn" id="mainSubscribeBtn">Подписаться</button>
+        <button class="btn theme-toggle" id="themeToggle">Тёмная тема</button>
+    </header>
+
+    <nav class="nav-links">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="contacts.html">Контакты</a>
+    </nav>
+
+    <main>
+        <h2 class="section-title">Популярные книги</h2>
+        <div class="books-grid" id="popularGrid"></div>
+
+        <div class="recent-section">
+            <h3 class="recent-title">Последние просмотренные</h3>
+            <div class="books-grid recent-grid" id="recentGrid"></div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div>
+                <h3>Книжный клуб</h3>
+                <p>Читай больше, узнавай новое</p>
+            </div>
+            <form class="subscribe-form" id="footerForm">
+                <input type="text" placeholder="Имя" required>
+                <input type="email" placeholder="Email" required>
+                <button class="btn" type="submit">Подписаться</button>
+            </form>
+        </div>
+        <div class="footer-bottom">
+            <div><p>Книжный клуб</p><a href="#">Политика конфиденциальности</a></div>
+            <div>
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="contacts.html">Контакты</a>
+            </div>
+            <div><p>books@example.com</p><p>+7 (999) 123-45-67</p><p>© 2026</p></div>
+        </div>
+    </footer>
+</div>
+
+<div id="bookModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="modal-close">&times;</span>
+        </div>
+        <div class="modal-body" id="modalBody"></div>
+        <div class="modal-footer">
+            <button class="btn modal-close-btn">Закрыть</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
